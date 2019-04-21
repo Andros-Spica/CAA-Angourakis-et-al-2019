@@ -10,6 +10,20 @@ https://andros-spica.github.io/CAA-Angourakis-Petrie-2019/
 **Authors**  
 Angourakis, Andreas
 
+Bates, Jennifer
+
+Baudouin, Jean-Phillipe
+
+Giesche, Alena
+
+Walker, Joanna
+
+Ustunkaya, M. Cemre 
+
+Wright, Nathan
+
+Singh, Ravindra N. 
+
 Petrie, Cameron A.
 
 For more information on authors and project: https://www.arch.cam.ac.uk/research/projects/two-rains
