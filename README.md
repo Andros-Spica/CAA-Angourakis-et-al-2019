@@ -5,7 +5,7 @@ https://2019.caaconference.org/
 
 Prepared with *reveal.js* (see https://revealjs.com/)
 
-https://andros-spica.github.io/CAA-Angourakis-Petrie-2019/
+https://andros-spica.github.io/CAA-Angourakis-et-al-2019/
 
 **Authors**  
 Angourakis, Andreas
