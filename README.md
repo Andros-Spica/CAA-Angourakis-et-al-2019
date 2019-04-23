@@ -5,10 +5,24 @@ https://2019.caaconference.org/
 
 Prepared with *reveal.js* (see https://revealjs.com/)
 
-https://andros-spica.github.io/CAA-Angourakis-Petrie-2019/
+https://andros-spica.github.io/CAA-Angourakis-et-al-2019/
 
 **Authors**  
 Angourakis, Andreas
+
+Bates, Jennifer
+
+Baudouin, Jean-Phillipe
+
+Giesche, Alena
+
+Walker, Joanna
+
+Ustunkaya, M. Cemre 
+
+Wright, Nathan
+
+Singh, Ravindra N. 
 
 Petrie, Cameron A.
 
