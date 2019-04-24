@@ -134,19 +134,12 @@
 				</section>
 				<section>
 					<h3>Scales of diversity</h3>
-					<div id="left50">
-						!!!
-						<br>
-						<i style="font-size: 33%">REFS</i>
-					</div>
-					<div id="right50" style="text-align: left">
-						Local/momentum:<br><i>'hill climbing'</i> <br>&#8594; <b>fitness maximiser</b>
-						<br><br>
-						Regional/period:<br><i>'boat stabilising'</i> <br>&#8594; <b>risk minimiser</b>
-						<br><br>
-						<p style="font-size: 50%">Integration of multiple instances creates an average 
-							fitness landscape that buffers the diversity of conditions</p>
-					</div>
+					Local/momentum:<br><i>'hill climbing'</i> <br>&#8594; <b>fitness maximiser</b>
+					<br><br>
+					Regional/period:<br><i>'boat stabilising'</i> <br>&#8594; <b>risk minimiser</b>
+					<br><br>
+					<p style="font-size: 50%">Integration of multiple instances creates an average 
+						fitness landscape that buffers the diversity of conditions</p>
 				</section>
 
 				<section class="fragments" data-background="https://upload.wikimedia.org/wikipedia/commons/6/6d/Good_Food_Display_-_NCI_Visuals_Online.jpg">
@@ -380,24 +373,30 @@
 					</ul>
 				</section>
 				<section>
-					<img src="images/Household-model-infograph.png" alt="Goal model"
+					<img src="images/Household-model-infograph-v2.png" alt="Goal model"
 						style="border: none; box-shadow: none"/>
 				</section>
 				<section>
 					<h3>Elements</h3>
-					<ul>
-						<li><b>Household</b>: <i style="color:crimson">propinquity</i> 
-							and <i style="color:crimson">co-residence</i>, rather 
-							than <i style="color:crimson">kinship</i></li>
-						<li><b>Group</b>: set of households, united by <i style="color:crimson">kinship</i> or 
-							<i style="color:crimson">coexistence</i>; may form a '<i style="color:crimson">settlement</i>'</li>
-						<li><b>Patches</b>: 1 hectare, vary in <i style="color:crimson">soil</i>, 
-							<i style="color:crimson">water balance</i>, and <i style="color:crimson">land use</i></li>
-					</ul>
+					<div id="right70">
+						<ul>
+							<li><b>Household</b>: <i style="color:crimson">propinquity</i> 
+								and <i style="color:crimson">co-residence</i>, rather 
+								than <i style="color:crimson">kinship</i></li>
+							<li><b>Group</b>: set of households, united by <i style="color:crimson">kinship</i> or 
+								<i style="color:crimson">coexistence</i>; may form a '<i style="color:crimson">settlement</i>'</li>
+							<li><b>Patches</b>: 1 hectare, vary in <i style="color:crimson">soil</i>, 
+								<i style="color:crimson">water balance</i>, and <i style="color:crimson">land use</i></li>
+						</ul>
+					</div>
+					<div id="left30">
+						<img src="images/units-infograph.png" alt="units infograph"
+						style="border: none; box-shadow: none"/>
+					</div>
 				</section>
 				<section>
 					<h3>Model design, insofar</h3>
-					<img src="images/householdEconomy-diagram.png" alt="Household economy"
+					<img src="images/householdEconomy-diagram-v03.png" alt="Household economy"
 					style="width: 600px; border: none; box-shadow: none"/>
 				</section>
 				<section>
@@ -410,7 +409,8 @@
 						<h3>Household <i style="color: crimson">demography</i></h3>
 					<h4>Dynamics</h4>
 					<ul>
-						<li>Submodels (age/sex-specific mortality, nuptiality, fertility)</li>
+						<li>Age/sex-specific submodels: <i style="color: crimson">mortality</i> (Coale-Demeny, from <a href="https://cran.r-project.org/package=demogR">demogR</a> package), 
+							<i style="color: crimson">nuptiality</i> and <i style="color: crimson">fertility</i> (<a href="https://www.jstor.org/stable/26347932">Peristeva & Kostaki 2007</a>, <a href="http://dx.doi.org/10.25336/P6TK56">2015</a>)</li>
 						<li>Open population</li>
 						<li>Couples: residence rule and kinship tabu</li>
 						<li>Sensitivity to population size</li>
@@ -418,38 +418,68 @@
 					</ul>
 				</section>
 				<section>
-						<h3>Household <i style="color: crimson">economy</i></h3>
-					<h4>Structure</h4>
+					<h3>Household <i style="color: crimson">economy</i></h3>
+					<h4>From land use to diet</h4>
 					<ul>
-						<li>Food production at household-level</li>
-						<li>Diet and nutrition</li>
-						<li>Specific strategies applied to patches with specific (changing) conditions</li>
+						<li><i style="color: crimson">Food production</i> at household-level</li>
+						<li><i style="color: crimson">Diet</i> and <i style="color: crimson">nutrition</i></li>
+						<li>Specific <i style="color: crimson">strategies</i> applied to patches with specific (changing) <i style="color: crimson">conditions</i></li>
 						<li>Sharing/exchange to be realised at group-level</li>
 					</ul>
 				</section>
 				<section>
 					<h3>Household <i style="color: crimson">economy</i></h3>
-					<h4>Dynamics</h4>
-					standing population &#8594; labour &#8594; food production &#8594; consumption (+storage) &#8594; nutrition &#8594; mortality
-				</section>
-				<section>
-					<h3>From land use to diet</h3>
-					<img src="" alt="multi-level conection between land use and diet"
+					<h4>Structure</h4>
+					<img src="images/land-to-diet.png" alt="multi-level conection between land use and diet"
 					style="width: 600px; border: none; box-shadow: none"/>
 				</section>
 				<section>
+					<h3>Household <i style="color: crimson">economy</i></h3>
+					<h4>Dynamics</h4>
+					<img src="images/household-economy-units-yEd_v2_transp.png" alt="economic cycle"
+					style="width: 800px; border: none; box-shadow: none"/>
+					<!--standing population &#8594; labour &#8594; food production &#8594; consumption (+storage) &#8594; nutrition &#8594; mortality-->
+				</section>
+				<section>
 					<h3>Data input</h3>
-					<div id="left50">
-						<img src="" alt="multi-level conection between land use and diet"
-						style="width: 600px; border: none; box-shadow: none"/>
-					</div>
-					<div id="right50">
-						<ul>
-							<li>Foodstuff table</li>
-							<li>Crops table</li>
-							<li>Animals table</li>
-						</ul>
-					</div>
+					<section>
+						<h4>Soils and crop conditions</h4>
+						<div id="left50">
+							<a title="FAO soils portal" 
+								href="http://www.fao.org/soils-portal/soil-survey/soil-maps-and-databases/harmonized-world-soil-database-v12/en/" target="_blank">
+								<img width="512" alt="FAO-soil-portal" 
+								src="images/data-soil.png">
+							</a>
+							<br>
+							Challenge: model animal husbandry
+						</div>
+						<div id="right50">
+							<a title="ECOCROP portal" 
+								href="http://ecocrop.fao.org/ecocrop/srv/en/dataSheet?id=1232" target="_blank">
+								<img width="512" alt="ECOCROP" 
+								src="images/data-crops.png">
+							</a>
+						</div>
+					</section>
+					<section>
+						<h4>Foodstuff nutrition values</h4>
+						<div id="left50">
+								<a title="USDA food database" 
+							href="https://ndb.nal.usda.gov/ndb/foods/show/20005?fgcd=&manu=&format=&count=&max=25&offset=&sort=default&order=asc&qlookup=Barley%2C+pearled%2C+raw&ds=SR&qt=&qp=&qa=&qn=&q=&ing=" target="_blank">
+							<img width="512" alt="USDA-foods" 
+							src="images/data-foodstuff.png">
+						</a>
+							</div>
+							<div id="right50">
+									Challenge: raw or cooked?
+									<br>
+									<a title="Bates, Petrie & Singh 2018,  Archaeol Anthropol Sci, 10:1703, Fig. 8" 
+									href="https://doi.org/10.1007/s12520-017-0489-2" target="_blank">
+									<img width="400" alt="Bates, Petrie & Singh 2018, Fig. 8" 
+									src="images/data-foodstuff-ref.png">
+								</a>
+							</div>
+					</section>
 				</section>
 				<section>
 					<h3>Conclusions I</h3>
