@@ -1,11 +1,11 @@
 # “Don't put all your eggs in one basket”: modelling cropping strategies and climate change in the Indus Civilisation
 Presentation for 'Annual Computer Applications in Archaeology (CAA) conference', session #34 'Archaeological Data for Modern Problems. Modern Methods for Archaeological Questions' (chair: Stefani Cabtree & Iza Romanowska), at the Jagiellonian University in Kraków, Poland (23-27 April 2019)
 
-https://2019.caaconference.org/
+Conference web page: https://2019.caaconference.org/
 
 Prepared with *reveal.js* (see https://revealjs.com/)
 
-https://andros-spica.github.io/CAA-Angourakis-et-al-2019/
+Slides: https://andros-spica.github.io/CAA-Angourakis-et-al-2019/
 
 **Authors**  
 Angourakis, Andreas
